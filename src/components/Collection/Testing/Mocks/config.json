@@ -1,0 +1,330 @@
+{
+    "collection": {
+        "resultsPerPage": 10,
+        "endpoint": "https://www.somedomain.com/some-test-api.json",
+        "totalCardsToShow": 150,
+        "cardStyle": "none",
+        "showTotalResults": true,
+        "i18n": {
+            "prettyDateIntervalFormat": "{LLL} {dd} | {timeRange} {timeZone}",
+            "totalResultsText": "{total} Results",
+            "title": "Your Top Picks"
+        }
+    },
+    "featuredCards": [
+        {
+            "id": "6d6438c8-1",
+            "showCard": {
+                "from": "2020-10-01T20:00:00Z",
+                "until": "2025-10-31T21:45:00Z"
+            },
+            "styles": {
+                "typeOverride": "3:2",
+                "backgroundImage": "https://www.somedomain.com/some-image.jpg"
+            },
+            "overlays": {
+                "banner": {
+                    "description": "Live",
+                    "backgroundColor": "#CB6F10",
+                    "fontColor": "#FFFFFF",
+                    "icon": "https://www.somedomain.com/some-live-banner-icon.svg"
+                },
+                "logo": {},
+                "label": {},
+                "videoButton": {
+                    "url": "https://www.somedomain.com/some-video-url.mp4"
+                }
+            },
+            "tags": [ { "id": 1 } ],
+            "contentArea": {
+                "detailText": "some details",
+                "title": "Some Featured Card",
+                "description": "Some Description",
+                "dateDetailText": {
+                    "startTime": "2021-10-11T21:00:00.000Z",
+                    "endTime": "2021-10-11T21:00:00.000Z"
+                }
+            },
+            "appliesTo": [
+                {
+                    "id": "tag-namespace-1/tag2"
+                }
+            ],
+            "footer": [
+                {
+                    "divider": false,
+                    "left": [
+                        {
+                            "type": "bookmark",
+                            "saveCardIcon": "https://www.somedomain.com/some-save-card-icon.svg",
+                            "unsaveCardIcon": "https://www.somedomain.com/some-unsave-card-icon.svg",
+                            "cardSaveText": "Save Card",
+                            "cardUnsaveText": "Unsave Card"
+                        },
+                        {
+                            "type": "date-interval",
+                            "startTime": "2020-10-20T20:00:00Z",
+                            "endTime": "2020-10-27T21:45:00Z"
+                        }
+                    ],
+                    "right": [
+                        {
+                            "type": "button",
+                            "style": "call-to-action",
+                            "text": "Read More",
+                            "href": "https://www.somedomain.com/"
+                        }
+                    ]
+                }
+            ],
+            "cardDate": "2020-10-19T05:47:08.713Z"
+        },
+        {
+            "id": "6d6438c8-3",
+            "showCard": {
+                "from": "2020-10-01T20:00:00Z",
+                "until": "2025-10-31T21:45:00Z"
+            },
+            "styles": {
+                "typeOverride": "3:2",
+                "backgroundImage": "https://www.somedomain.com/some-card-background-image.jpeg"
+            },
+            "overlays": {
+                "banner": {
+                    "description": "Live",
+                    "backgroundColor": "#CB6F10",
+                    "fontColor": "#FFFFFF",
+                    "icon": "https://www.somedomain.com/some-live-banner-icon.svg"
+                },
+                "logo": {},
+                "label": {},
+                "videoButton": {
+                    "url": "https://www.somedomain.com/some-video-url.mp4"
+                }
+            },
+            "tags": [],
+            "contentArea": {
+                "detailText": "Some Details Text",
+                "title": "Featured Tile",
+                "description": "Some Description",
+                "dateDetailText": {
+                    "startTime": "2021-10-11T21:00:00.000Z",
+                    "endTime": "2021-10-11T21:00:00.000Z"
+                }
+            },
+            "appliesTo": [
+                {
+                    "id": "tag-namespace-1/tag1"
+                }
+            ],
+            "footer": [
+                {
+                    "divider": false,
+                    "left": [
+                        {
+                            "type": "bookmark",
+                            "saveCardIcon": "https://www.somedomain.com/some-save-card-icon.svg",
+                            "unsaveCardIcon": "https://www.somedomain.com/some-unsave-card-icon.svg",
+                            "cardSaveText": "Save Card",
+                            "cardUnsaveText": "Unsave Card"
+                        },
+                        {
+                            "type": "date-interval",
+                            "startTime": "2020-10-20T20:00:00Z",
+                            "endTime": "2020-10-27T21:45:00Z"
+                        }
+                    ],
+                    "right": [
+                        {
+                            "type": "button",
+                            "style": "call-to-action",
+                            "text": "Read More",
+                            "href": "https://www.somedomain.com/some-group-icon.svg"
+                        }
+                    ]
+                }
+            ],
+            "cardDate": "2020-10-19T05:47:08.713Z"
+        }
+    ],
+    "header": {
+        "enabled": false
+    },
+    "filterPanel": {
+        "enabled": true,
+        "type": "left",
+        "filterLogic": "and",
+        "filters": [
+            {
+                "group": "First Tag Group Label",
+                "id": "tag-namespace-1",
+                "icon": "https://www.somedomain.com/some-group-icon.svg",
+                "openedOnLoad": true,
+                "items": [
+                    {
+                        "label": "Tag 1 Label",
+                        "id": "tag-namespace-1/tag1"
+                    },
+                    {
+                        "label": "Tag 2 Label",
+                        "id": "tag-namespace-1/tag2"
+                    },
+                    {
+                        "label": "Tag 3 Label",
+                        "id": "tag-namespace-1/tag3"
+                    },
+                    {
+                        "label": "Tag 4 Label",
+                        "id": "tag-namespace-1/tag4"
+                    },
+                    {
+                        "label": "Tag 5 Label",
+                        "id": "tag-namespace-1/tag5"
+                    },
+                    {
+                        "label": "Tag 6 Label",
+                        "id": "tag-namespace-1/tag6"
+                    },
+                    {
+                        "label": "Tag 7 Label",
+                        "id": "tag-namespace-1/tag7"
+                    },
+                    {
+                        "label": "Tag 8 Label",
+                        "id": "tag-namespace-1/tag8"
+                    },
+                    {
+                        "label": "Tag 9 Label",
+                        "id": "tag-namespace-1/tag9"
+                    },
+                    {
+                        "label": "Tag 10 Label",
+                        "id": "tag-namespace-1/tag10"
+                    }
+                ]
+            },
+            {
+                "group": "Second Tag Group Label",
+                "id": "tag-namespace-2",
+                "icon": "https://www.somedomain.com/some-group-icon.svg",
+                "openedOnLoad": false,
+                "items": [
+                    {
+                        "label": "Tag 1 Label",
+                        "id": "tag-namespace-2/tag1"
+                    },
+                    {
+                        "label": "Tag 2 Label",
+                        "id": "tag-namespace-2/tag2"
+                    }
+                ]
+            }
+        ],
+        "i18n": {
+            "leftPanel": {
+                "header": "Filters",
+                "clearAllFiltersText": "Clear All",
+                "mobile": {
+                    "filtersBtnLabel": "Filters:",
+                    "panel": {
+                        "header": "Filters",
+                        "totalResultsText": "{total Results}",
+                        "applyBtnText": "Apply",
+                        "clearFilterText": "Clear",
+                        "doneBtnText": "Done"
+                    },
+                    "group": {
+                        "totalResultsText": "{total} Results",
+                        "applyBtnText": "Apply",
+                        "clearFilterText": "Clear",
+                        "doneBtnText": "Done"
+                    }
+                }
+            },
+            "topPanel": {
+                "groupLabel": "Filters:",
+                "clearAllFiltersText": "Clear All",
+                "moreFiltersBtnText": "More +",
+                "mobile": {
+                    "group": {
+                        "totalResultsText": "Total {total}",
+                        "applyBtnText": "Apply",
+                        "clearFilterText": "Clear",
+                        "doneBtnText": "Done"
+                    }
+                }
+            }
+        }
+    },
+    "sort": {
+        "enabled": true,
+        "defaultSort": "featured",
+        "options": [
+            {
+                "label": "featured",
+                "sort": "featured"
+            },
+            {
+                "label": "Title: (A-Z)",
+                "sort": "titleAsc"
+            },
+            {
+                "label": "Title: (Z-A)",
+                "sort": "titleDesc"
+            },
+            {
+                "label": "Date",
+                "sort": "dateAsc"
+            },
+            {
+                "label": "Date: (Newest to oldest)",
+                "sort": "dateDesc"
+            }
+        ]
+    },
+    "pagination": {
+        "enabled": true,
+        "type": "paginator",
+        "i18n": {
+            "loadMore": {
+                "btnText": "Load More",
+                "resultsQuantityText": "{start} {end}"
+            },
+            "paginator": {
+                "resultsQuantityText": "{start} {end} {total}",
+                "prevLabel": "Previous",
+                "nextLabel": "Next"
+            }
+        }
+    },
+    "bookmarks": {
+        "leftFilterPanel": {
+            "bookmarkOnlyCollection": false,
+            "showBookmarksFilter": true,
+            "selectBookmarksIcon": "https://www.somedomain.com/some-select-bookmark-icon.svg",
+            "unselectBookmarksIcon": "https://www.somedomain.com/some-unselect-bookmark-icon.svg"
+        },
+        "i18n": {
+            "leftFilterPanel": {
+                "filterTitle": "Refine your results"
+            }
+        }
+    },
+    "search": {
+        "enabled": true,
+        "searchFields": ["contentArea.title","contentArea.description", "search.meta.author", "overlays.label.text"],
+        "i18n": {
+            "leftFilterPanel": {
+                "searchTitle": "Search",
+                "searchPlaceholderText": "Search here..."
+            },
+            "topFilterPanel": {
+                "searchPlaceholderText": "Search here..."
+            },
+            "filterInfo": {
+                "searchPlaceholderText": "Search here..."
+            }
+        }
+    },
+    "language": "en"
+}
